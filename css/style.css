@@ -1,13 +1,12 @@
 * {
+    box-sizing: border-box;
     background-color: #f4f3f1;
+    margin: 0;
 }
 
-section {
-    height: calc(100vh - 3em);
-    width: auto;
-}
 
 /*Menu*/
+
 
     /*Logo*/
 .navbar-brand{
@@ -57,32 +56,106 @@ section {
 
 /*Banner Carrusel*/
 
+.banner_01 {
+   
+}
 
 /*Tarjetas*/
 
 
 .tarjetas_01 {
+    margin-top: 3em;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+}
+
+.card_01 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.card_02 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.card_03 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
 
 .img_cards {
-    width: 120%;
-    margin: 2em;
+    width: 100%;
 }
 
-.btn_card{
-    margin: 1em;
-    padding: 1em;
+.btn_card {
     color: #3d3d3c;
     background-color: #f4f3f1;
-    border: 2px solid #3d3d3c;
-    border-radius: 0%;
-    justify-content: center;
+    padding: 0.5em;
+    font-size: 1.4em;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.about_footer {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /*About*/
+.text_about {
+    padding: 1em;
+}
 
+/*Títlo_About*/
+.text_about h1 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 2em;
+}
+
+/*Párrafo _About**/
+.text_about > p {
+    font-size: 1.4em;
+}
+
+/*Banner _About**/
+.text_about > img {
+    display:block;
+    margin:auto;
+    width: 100%;
+}
 
 /*Footer*/
+.footer {
+    
+    padding: 1em;
+}
+
+.copyright {
+    text-align: center;
+    padding: 1em;
+}
+
+.icono_instagram {
+    display: flex;
+    justify-content: center;
+}
+
+.icono_instagram > a  {
+   padding: 0.5em;
+}
+
+.icono_instagram > h2  {
+    padding: 0.5em;
+ }
