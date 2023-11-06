@@ -9,6 +9,14 @@ body {
 }
 
 /*menu*/
+
+#menu {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+
 .container-fluid {
     background-color: #f4f3f1;
 }
@@ -250,7 +258,7 @@ body {
     position: relative;
 }
 
-.  details summary {  
+.details summary {  
     font-weight: 400;
     font-size: 1.25rem;
     padding: 1rem;
@@ -342,6 +350,20 @@ body {
 /*tablet*/
 @media (max-width: 768px) { 
 
+    .banner_01 {
+        padding-top: 4em;
+    }
+
+    .noticia {
+        padding-top: 5em;
+    }
+
+    .outfit {
+        padding-top: 6em;
+    }
+
+
+
     /*link tarjetas (boton)*/
     .btn_card {
         font-size: 1.2em;
@@ -396,6 +418,10 @@ body {
 
 
 @media (max-width: 500px) {
+
+    .banner_01 {
+        padding-top: 5em;
+    }
 
     /*contenedor tarjetas*/
     .tarjetas {
