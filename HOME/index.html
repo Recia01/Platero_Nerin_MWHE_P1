@@ -1,234 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link
-      href="css/style-media.css"
-      rel="stylesheet"
-      type="text/css"
-      media="screen and (max-width:768px)"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/script.js"></script>
-
-=======
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <link rel="icon" type="image/jpg" href="img/flavicon_luxuryz_png.png"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <title> | Luxury Z |</title>
  
 </head>
 
-  <body>
-    <!--MENÚ-->
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <!--LOGO-->
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logo_luxuryz.png" alt="Logo" width="35" height="35" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
-          >
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="novedaes.html"
-                >NOVEDADES</a
-              >
-            </li>
+<body>
+    
+ <!--MENÚ-->
+ <nav id="menu" class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+      <!--LOGO-->
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo_luxuryz.png" alt="Logo" width="35" height="35">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                MARCAS
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Adidas</a></li>
-                <li><a class="dropdown-item" href="#">Alexander McQueen</a></li>
-                <li><a class="dropdown-item" href="#">Audry</a></li>
-                <li><a class="dropdown-item" href="#">Adidas</a></li>
-                <li><a class="dropdown-item" href="#">Golden Goose</a></li>
-                <li><a class="dropdown-item" href="#">Gucci</a></li>
-                <li><a class="dropdown-item" href="#">Nike</a></li>
-                <li><a class="dropdown-item" href="#">Vansy</a></li>
-                <li><a class="dropdown-item" href="#">Vega</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="outfits.html"
-                >OUTFITS</a
-              >
-            </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="novedaes.html">NOVEDADES</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            MARCAS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Adidas</a></li>
+            <li><a class="dropdown-item" href="#">Alexander McQueen</a></li>
+            <li><a class="dropdown-item" href="#">Audry</a></li>
+            <li><a class="dropdown-item" href="#">Adidas</a></li>
+            <li><a class="dropdown-item" href="#">Golden Goose</a></li>
+            <li><a class="dropdown-item" href="#">Gucci</a></li>
+            <li><a class="dropdown-item" href="#">Nike</a></li>
+            <li><a class="dropdown-item" href="#">Vansy</a></li>
+            <li><a class="dropdown-item" href="#">Vega</a></li>
           </ul>
+        </li>
 
-          <form class="d-flex" role="search">
-            <input
-              class="form-control"
-              type="search"
-              placeholder="Buscar"
-              aria-label="Search"
-            />
-            <button class="btn" type="submit">Buscar</button>
-          </form>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="outfits.html">OUTFITS</a>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+ <!--Banner - Carrusel-->
+
+ <section class="banner_01">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="" title="img">
+            <img src="img/banner_carrusel_01.png" class="d-block w-100" alt="Banner Nike Air Mag">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="novedaes.html" title="img">
+            <img src="img/banner_carrusel_02.png" class="d-block w-100" alt="Bnner Air Max Goretex">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="outfits.html" title="img">
+            <img src="img/banner_carrusel_03.png" class="d-block w-100" alt="Banner Nueva Sección Outfits">
+          </a>>
         </div>
       </div>
-    </nav>
-
-    <!--Banner - Carrusel-->
-
-    <section class="banner_01">
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="" title="img">
-              <img
-                src="img/banner_carrusel_01.png"
-                class="d-block w-100"
-                alt="Banner Nike Air Mag"
-              />
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="novedaes.html" title="img">
-              <img
-                src="img/banner_carrusel_02.png"
-                class="d-block w-100"
-                alt="Bnner Air Max Goretex"
-              />
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="outfits.html" title="img">
-              <img
-                src="img/banner_carrusel_03.png"
-                class="d-block w-100"
-                alt="Banner Nueva Sección Outfits"
-              />
-            </a>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+ </section>
 
-    <!--Tarjetas-->
 
-    <section class="tarjetas row">
-      <div class="card_01 col-4">
-        <a href="" title="img">
-          <img
-            class="img_cards"
-            alt="Nike Dunk Low"
-            src="img/Ej_Tarjeta_01.jpg"
-          />
+ <!--Tarjetas-->
+
+ <section class="tarjetas">
+    <div class="card_01">
+      <a href="" title="img">
+        <img class="img_cards" alt="Nike Dunk Low" src="img/Ej_Tarjeta_01.jpg"/>
+      </a>
+      <a href="#" class="btn_card">Lo último sobre Dunk Low</a>
+    </div>
+
+    <div class="card_02">
+      <a href="novedaes.html" title="img">
+        <img class="img_cards" alt="Nike Dunk Low" src="img/Ej_Tarjeta_02.jpg"/>
+      </a>
+      <a href="novedaes.html" class="btn_card">Air Max Goretex</a>
+    </div>
+
+    <div class="card_03">
+      <a href="" title="img">
+        <img class="img_cards" alt="Nike Dunk Low" src="img/Ej_Tarjeta_03.jpg"/>
+     </a>
+      <a href="#" class="btn_card">Nike x Jaquemous</a>
+    </div>
+  </section>
+
+
+
+<!--About & Fotter-->
+
+<section class="about_footer">
+    <div class="text_about">
+      <h1><strong>ABOUT</strong></h1>
+      <p>Los miembros de nuestra empresa son amantes de las zapatillas exclusivas. Con el conocimiento
+        de todos nació <strong>Luxury Z</strong>, para aportarte las últimas tendencias y noticias acerca de las marcas más
+        trendy del momento. Queremos que a través de nuestra web puedas estar al tanto de todo lo relacionado
+        con las zapas de lujo, además de poder coleccionar algún modelo.</p>
+      <img src="img/img_banner_about.jpg">
+    </div>
+    <div class="footer">
+      <!--Instagram-->
+      <div class="icono_instagram">
+        <a href="https://www.instagram.com/" title="Link Instagram">
+          <img src="img/icono_Instagram.png" alt="icono instagram"/>
         </a>
-        <a href="#" class="btn_card">Lo último sobre Dunk Low</a>
-      </div>
-
-      <div class="card_02 col-4">
-        <a href="novedaes.html" title="img">
-          <img
-            class="img_cards"
-            alt="Nike Dunk Low"
-            src="img/Ej_Tarjeta_02.jpg"
-          />
+        <a  href="https://www.instagram.com/" title="Link Instagram">
+          <h2>Luxury Z</h2>
         </a>
-        <a href="novedaes.html" class="btn_card">Air Max Goretex</a>
       </div>
+      <div class="copyright">
+        <h4>© 2020 Copyright</h4>
+    </div>
+    </div>
+  </section>
 
-      <div class="card_03 col-4">
-        <a href="" title="img">
-          <img
-            class="img_cards"
-            alt="Nike Dunk Low"
-            src="img/Ej_Tarjeta_03.jpg"
-          />
-        </a>
-        <a href="#" class="btn_card">Nike x Jaquemous</a>
-      </div>
-    </section>
-
-    <!--About & Fotter-->
-
-    <section class="about_footer row">
-      <div class="text_about col-12">
-        <h1><strong>ABOUT</strong></h1>
-        <p>
-          Los miembros de nuestra empresa son amantes de las zapatillas
-          exclusivas. Con el conocimiento de todos nació
-          <strong>Luxury Z</strong>, para aportarte las últimas tendencias y
-          noticias acerca de las marcas más trendy del momento. Queremos que a
-          través de nuestra web puedas estar al tanto de todo lo relacionado con
-          las zapas de lujo, además de poder coleccionar algún modelo.
-        </p>
-        <img src="img/img_banner_about.jpg" />
-      </div>
-      <div class="footer row">
-        <!--Instagram-->
-        <div class="icono_instagram col-12">
-          <a href="https://www.instagram.com/" title="Link Instagram">
-            <img
-              style="margin-top: 0.3em"
-              src="img/icono_Instagram.png"
-              alt="icono instagram"
-              width="30em"
-            />
-          </a>
-          <a href="https://www.instagram.com/" title="Link Instagram">
-            <h2>Luxury Z</h2>
-          </a>
-        </div>
-        <div class="copyright col-12">
-          <h4>© 2020 Copyright</h4>
-        </div>
-      </div>
-    </section>
-  </body>
+</body>
 </html>
