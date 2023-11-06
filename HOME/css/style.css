@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 
@@ -120,7 +121,6 @@ body {
         margin-left: 2em;
         margin-right: 2em;
         padding-top: 0.8em;
-        padding-bottom: 0.4em;
     }
 
     /*parrafo about*/
@@ -156,11 +156,16 @@ body {
     .icono_instagram {
         display: flex;
         justify-content: center;
-        padding: 1em;
+        padding: 2em;
     }
 
     .icono_instagram > a {
       padding-right: 0.5em;
+    }
+
+    .icono_instagram > a > img {
+        width: 40px;
+        height: 40px;
     }
 
     .icono_instagram > a > h2 {
@@ -204,7 +209,7 @@ body {
 
 /*parrafos*/
 .text1 {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #3d3d3c;
     text-align: justify;
     background: rgba(244, 243, 241, .8);
@@ -214,7 +219,7 @@ body {
 }
 
 .text2 {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #3d3d3c;
     text-align: justify;
     border-radius: 10px;
@@ -305,32 +310,155 @@ body {
 
 .container_outfits {
     display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
-.look > img {
-    width: 80%;
-    padding: 1em;
-    border-radius: 30px;
+.look {
+    margin:4em;
+}
+
+.look img {
+    width: 60%;
+    border-radius: 26px;
+    display: block;
+    margin: auto;
 }
 
 .img_zapas {
-    width: 56%;
+    width: 50%;
     padding: 1em;
+    margin: auto;
 }
 
-.img_zapas > p {
-    text-align: center;
-}
+.producto {
+    font-size: calc(1rem + 0.1vw);
+  }
 
-/*Centrar el div (container_outfits) que contiene el div look y el div opciones*/
 
-/*responsive*/
+
+
+
+/*RESPONSIVE*/
 
 /*tablet*/
+@media (max-width: 768px) { 
+
+    /*link tarjetas (boton)*/
+    .btn_card {
+        font-size: 1.2em;
+        width: 80%;
+    }
+
+/*pag novedades*/
+
+    /*Titulos*/
+    .noticia > h1 {
+        font-size: 3em;
+        padding-top: 0.5em;
+    }
+
+
+    .noticia > h2 {
+        font-size: 2em;
+        padding-bottom: 0.5em;
+    }
+
+/*pag outfits*/
+    .container_outfits {
+        flex-direction: column;
+    }
+ 
+    .look {
+        margin:0;
+    }
+ 
+    .look img {
+        width: 50%;
+    }
+ 
+    .opciones {
+        padding: 1em;
+    }
+
+    .img_zapas {
+        width: 100%;
+    }
+ 
+    .opciones {
+     margin: auto;
+    }
+    
+}
+
 
 
 
 /*movil*/
+
+
+@media (max-width: 500px) {
+
+    /*contenedor tarjetas*/
+    .tarjetas {
+        margin-top: 0;
+        padding: 0;
+        flex-direction: column;
+        font-size: 1em;
+    }
+
+    /*tarjeta 1*/
+    .card_01 {
+        padding-top: 1em;
+    }
+
+    /*link tarjetas (boton)*/
+     .btn_card {
+        font-size: 1.2em;
+        width: 60%;
+    }
+
+
+    /*titulo about*/
+    .text_about > h1 {
+        padding-top: 1em;
+        font-size: 2em;
+    }
+
+    /*parrafo about*/
+    .text_about > p {
+        font-size: 1.2em;
+    }
+
+    /*footer*/
+    .copyright > h4 {
+        font-size: 3em;
+    }
+
+    .icono_instagram > a > img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icono_instagram > a > h2 {
+        font-size: 1.2em;
+    }
+
+/*pag novedades*/
+
+    /*Titulos*/
+    .noticia > h1 {
+        font-size: 3em;
+        margin: auto;
+    }
+
+
+    .noticia > h2 {
+    font-size: 1.8em;
+     margin: auto;
+    }
+
+    /*pag outfits*/
+
+    .look img {
+        width: 80%;
+    }
+ }
