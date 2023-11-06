@@ -67,7 +67,9 @@ body {
 
 /*banner carrusel*/
 
-
+.banner_01 {
+   padding-top: 6em;
+}
 
 /*contenedor tarjetas*/
 .tarjetas {
@@ -195,7 +197,7 @@ body {
     text-align: center;
     margin-left: 2em;
     margin-right: 2em;
-    padding-top: 0.8em;
+    padding-top: 2em;
 }
 
 
