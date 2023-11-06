@@ -1,115 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <link rel="icon" type="image/jpg" href="img/flavicon_luxuryz_png.png"/>
-    <title> | Luxury Z |</title>
- 
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/jpg" href="img/flavicon_luxuryz_png.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>| Luxury Z |</title>
+  </head>
 
-<body background="">
-    
- <!--MENÚ-->
- <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-      <img src="img/logo_luxuryz.png" alt="Logo" width="35" height="35">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+  <body background="">
+    <!--MENÚ-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo_luxuryz.png" alt="Logo" width="35" height="35" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="novedaes.html"
+                >NOVEDADES</a
+              >
+            </li>
 
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="novedaes.html">NOVEDADES</a>
-        </li>
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            MARCAS
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Adidas</a></li>
-            <li><a class="dropdown-item" href="#">Alexander McQueen</a></li>
-            <li><a class="dropdown-item" href="#">Audry</a></li>
-            <li><a class="dropdown-item" href="#">Adidas</a></li>
-            <li><a class="dropdown-item" href="#">Golden Goose</a></li>
-            <li><a class="dropdown-item" href="#">Gucci</a></li>
-            <li><a class="dropdown-item" href="#">Nike</a></li>
-            <li><a class="dropdown-item" href="#">Vansy</a></li>
-            <li><a class="dropdown-item" href="#">Vega</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                MARCAS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Adidas</a></li>
+                <li><a class="dropdown-item" href="#">Alexander McQueen</a></li>
+                <li><a class="dropdown-item" href="#">Audry</a></li>
+                <li><a class="dropdown-item" href="#">Adidas</a></li>
+                <li><a class="dropdown-item" href="#">Golden Goose</a></li>
+                <li><a class="dropdown-item" href="#">Gucci</a></li>
+                <li><a class="dropdown-item" href="#">Nike</a></li>
+                <li><a class="dropdown-item" href="#">Vansy</a></li>
+                <li><a class="dropdown-item" href="#">Vega</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="outfits.html"
+                >OUTFITS</a
+              >
+            </li>
           </ul>
-        </li>
 
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="outfits.html">OUTFITS</a>
-        </li>
-      </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+            <button class="btn" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
-      <form class="d-flex" role="search">
-        <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
-        <button class="btn" type="submit">Buscar</button>
-      </form>
+    <!--NOTICIA-->
+
+    <div class="noticia">
+      <h1><strong>NOVEDADES</strong></h1>
+      <h2>AIR MAX GORETEX</h2>
+      <section class="container">
+        <div class="text1 row">
+          <p>
+            <strong
+              >Ya ha llegado el Otoño, lo cual quiere decir que ha comenzado la
+              temporada de lluvias. Las Nike Air Max 90 con Gore Tex llegan a la
+              vez para que podamos chapotear a gusto en los charcos, o al menos,
+              para que tengamos los pies perfectamente secos. El año pasado la
+              gran apuesta de Nike para este mismo propósito fueron las Air
+              Jordan 1 con Gore Tex, este año, la compañía del Swoosh apuesta
+              por una de sus siluetas más clásicas de la década en la que Kurt
+              Cobain y las Spice Girls reinaron: las Nike Air Max 90. No podemos
+              estar más felices por ello. Las Nike Air Max 90 son un clásico
+              fácil de llevar diseñado por Tinker Hatfield. Además, son una de
+              las siluetas Air Max más queridas de todos los tiempos. Son unas
+              zapatillas casi perfectas. ¿Qué les falta para alcanzar el Olimpio
+              absoluto? Que no dejen pasar el agua en caso de lluvia.</strong
+            >
+          </p>
+        </div>
+
+        <div class="text2 row">
+          <details close>
+            <summary>
+              <h3><strong>Más información</strong></h3>
+            </summary>
+            <p>
+              <strong
+                >Por eso Nike ha dado a sus Air Max 90 una protección Gore Tex,
+                haciéndola impermeable a las inclemencias del tiempo sin
+                quitarle nada de su estilo característico, y ahora ese
+                maquillaje especial ha aparecido en un colorway decididamente
+                apropiado para los días de lluvia "Antracita /Puro Platino".
+                Después de anunciar la llegada de las Nike Air Max 90 Futura en
+                un tono verde de lo más atractivo, Ahora le toca el turno a esta
+                versión que combina grises y azules oscuros. Estas zapatillas
+                carecen de la construcción de malla estándar de la Air Max 90 en
+                favor de materiales más pensados para proteger térmicamente el
+                pie como el cuero. Bajo los pliegues de cuero de la capa
+                exterior se encuentra una membrana Gore Tex que impide que el
+                agua se filtre. Este material especial es asentido por golpes
+                especiales de marca en la lengüeta y la "ventana" de plástico
+                del mediopié de las Air Max 90, mientras que la insignia de goma
+                del talón permanece sin cambios para finalizar el aspecto. La
+                fecha de lanzamiento de las Nike Air Max 90 con Gore Tex en
+                "antracita/puro platino" aún no se ha revelado, pero debería
+                llegar a la tienda web de Nike en los próximos días.</strong
+              >
+            </p>
+          </details>
+        </div>
+      </section>
     </div>
-  </div>
-</nav>
-
-
-<!--NOTICIA-->
-
-<div class="noticia">
-  <h1><strong>NOVEDADES</strong></h1>
-  <h2>AIR MAX GORETEX</h2>
-  <section class="container">
-   
-    <div class="text1">
-      <p>
-        <strong>Ya ha llegado el Otoño, lo cual quiere decir que ha comenzado la temporada de lluvias.
-        Las Nike Air Max 90 con Gore Tex llegan a la vez para que podamos chapotear a gusto en
-        los charcos, o al menos, para que tengamos los pies perfectamente secos. El año pasado
-        la gran apuesta de Nike para este mismo propósito fueron las Air Jordan 1 con Gore Tex,
-        este año, la compañía del Swoosh apuesta por una de sus siluetas más clásicas de la
-        década en la que Kurt Cobain y las Spice Girls reinaron: las Nike Air Max 90. No podemos
-        estar más felices por ello. Las Nike Air Max 90 son un clásico fácil de llevar diseñado
-        por Tinker Hatfield. Además, son una de las siluetas Air Max más queridas de todos los
-        tiempos. Son unas zapatillas casi perfectas. ¿Qué les falta para alcanzar el Olimpio
-        absoluto? Que no dejen pasar el agua en caso de lluvia.</strong> 
-      </p>
-    </div>
-
-  <div class="text2">
-    <details close>
-    <summary><h3><strong>Más información</strong></h3></summary>
-    <p><strong>Por eso Nike ha dado a sus Air Max 90 una protección Gore Tex, haciéndola impermeable a las
-      inclemencias del tiempo sin quitarle nada de su estilo característico, y ahora ese maquillaje
-      especial ha aparecido en un colorway decididamente apropiado para los días de lluvia "Antracita
-      /Puro Platino". Después de anunciar la llegada de las Nike Air Max 90 Futura en un tono
-      verde de lo más atractivo, Ahora le toca el turno a esta versión que combina grises y azules
-      oscuros.  Estas zapatillas carecen de la construcción de malla estándar de la Air Max 90 en
-      favor de materiales más pensados para proteger térmicamente el pie como el cuero. Bajo los
-      pliegues de cuero de la capa exterior se encuentra una membrana Gore Tex que impide que el agua
-      se filtre. Este material especial es asentido por golpes especiales de marca en la lengüeta y
-      la "ventana" de plástico del mediopié de las Air Max 90, mientras que la insignia de goma del
-      talón permanece sin cambios para finalizar el aspecto. La fecha de lanzamiento de las Nike Air
-      Max 90 con Gore Tex en "antracita/puro platino" aún no se ha revelado, pero debería llegar a la
-      tienda web de Nike en los próximos días.</strong></p>
-    </details>
-    </div>
-  </section>
-</div>
-
-
-  
-
-</body>
+  </body>
 </html>
-
