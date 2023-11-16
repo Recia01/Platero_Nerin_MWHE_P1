@@ -208,7 +208,7 @@ body {
 }
 
 /*Contenedor*/
-.container {
+.new_container {
     background-image: url(/HOME/img/Banner_Novedades.jpg);
     background-size: cover;
     padding: 2em;
@@ -216,16 +216,19 @@ body {
 
 /*parrafos*/
 .text1 {
+    width: 60%;
     font-size: 1em;
     color: #3d3d3c;
     text-align: justify;
     background: rgba(244, 243, 241, .8);
     border-radius: 10px;
     padding: 1em;
+    margin: auto;
     
 }
 
 .text2 {
+    width: 60%;
     font-size: 1em;
     color: #3d3d3c;
     text-align: justify;
@@ -316,11 +319,12 @@ body {
     color: #3d3d3c;
     font-size: 2.4em;
     text-align: center;
-    padding: 1em;
+    padding-top: 3em;
 }
 
 .container_outfits {
     display: flex;
+    padding-top: 1em;
 }
 
 .look {
