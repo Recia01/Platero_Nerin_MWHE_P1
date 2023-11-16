@@ -308,6 +308,10 @@ body {
  /*pag outfits*/
 
 
+ .banner_01 {
+    padding-top: 5em;
+ }
+
 .outfit > h1 {
     color: #3d3d3c;
     font-size: 2.4em;
