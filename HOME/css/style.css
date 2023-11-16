@@ -9,6 +9,13 @@ body {
 }
 
 /*menu*/
+#menu {
+    position: fixed;
+    z-index: 100;
+    top 0px;
+    width: 100%;
+}
+
 .container-fluid {
     background-color: #f4f3f1;
 }
